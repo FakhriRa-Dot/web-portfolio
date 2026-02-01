@@ -1,0 +1,41 @@
+export default function HeroSection() {
+  return (
+    <section className="grid min-h-[80vh] grid-cols-2 items-center px-10">
+      <div>
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-sageSoft px-4 py-1">
+          <span className="h-3 w-3 rounded-full bg-cream" />
+          <h3 className="text-md text-cream font-inconsolata">
+            Available for New Project
+          </h3>
+        </div>
+
+        <h1 className="mt-4 text-4xl font-bold text-sage font-alfa">
+          Zahrah Hafizah Fakhri
+        </h1>
+
+        <p className="mt-2 text-lg text-sage font-inconsolata tracking-wide">
+          Front-End Developer
+          <span className="text-ink"> Specialist React</span>
+        </p>
+
+        <p className="mt-8 max-w-md text-md text-ink font-crimson">
+          Crafting high-performance, accessible, and visually stunning web
+          applications with modern frontend technologies.
+        </p>
+
+        <div className="mt-8 flex gap-4">
+          <button className="btn-sage">View Projects</button>
+          <button className="btn-white">Let’s Talk</button>
+        </div>
+      </div>
+
+      <div className="flex justify-center">
+        <img
+          src="/Foto.png"
+          alt="Profile"
+          className="h-80 w-65 rounded-xl object-cover shadow-md"
+        />
+      </div>
+    </section>
+  );
+}

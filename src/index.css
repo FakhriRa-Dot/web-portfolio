@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-cream font-inconsolata;
+  }
+}
+
+@layer utilities {
+  /* background */
+  .bg-ink {
+    background-color: #474747;
+  }
+
+  .bg-sage {
+    background-color: #777c6d;
+  }
+
+  .bg-sageSoft {
+    background-color: #b7b89f;
+  }
+
+  .bg-cream {
+    background-color: #f9f6f6;
+  }
+
+  /* color */
+  .text-sage {
+    color: #777c6d;
+  }
+
+  .text-sageSoft {
+    color: #b7b89f;
+  }
+
+  .text-cream {
+    color: #f9f6f6;
+  }
+
+  .text-ink {
+    color: #474747;
+  }
+
+  /* font type */
+  .font-crimson {
+    font-family: "Crimson Text", serif;
+  }
+
+  .font-alfa {
+    font-family: "Alfa Slab One", serif;
+  }
+}
+
+@theme {
+  --color-ink: #474747;
+  --color-sage: #777c6d;
+  --color-sageSoft: #b7b89f;
+  --color-cream: #f9f6f6;
+
+  --font-inconsolata: "Inconsolata", monospace;
+  --font-crimson: "Crimson Text", serif;
+  --font-alfa: "Alfa Slab One", serif;
+}
+
+@layer components {
+  .btn-sage {
+    @apply rounded-md bg-sage px-6 py-2 text-cream font-bold;
+  }
+
+  .btn-white {
+    @apply rounded-md border border-sage px-6 py-2 text-sage font-semibold;
+  }
+}
