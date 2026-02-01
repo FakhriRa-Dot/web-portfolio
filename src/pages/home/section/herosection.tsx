@@ -2,7 +2,7 @@ export default function HeroSection() {
   return (
     <section className="grid min-h-[80vh] grid-cols-2 items-center px-10">
       <div>
-        <div className="mb-4 inline-flex items-center gap-2 rounded-full bg-sageSoft px-4 py-1">
+        <div className="mb-4 inline-flex items-center gap-2 rounded-full px-4 py-1">
           <span className="h-3 w-3 rounded-full bg-cream" />
           <h3 className="text-md text-cream font-inconsolata">
             Available for New Project

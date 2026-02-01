@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProjectCard from "../../../components/projectCard";
 import { projects } from "../../../data/project";
 
@@ -5,7 +6,7 @@ export default function ProjectsSection() {
   const featuredProjects = projects.filter((p) => p.featured).slice(0, 2);
 
   return (
-    <section className="bg-[#f7f4f1] py-20">
+    <section className="py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-10 flex items-center justify-between">
           <div>
@@ -14,7 +15,12 @@ export default function ProjectsSection() {
               Selected Projects
             </h1>
           </div>
-          <span className="text-sm text-sage font-inconsolata">View All</span>
+          <Link
+            to="/project"
+            className="text-sm font-inconsolata text-sage transition hover:text-ink"
+          >
+            View All
+          </Link>
         </div>
 
         <div className="mt-12 grid gap-8 grid-cols-1 lg:grid-cols-2">

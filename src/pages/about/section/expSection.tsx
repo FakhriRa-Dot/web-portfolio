@@ -12,8 +12,6 @@ export default function ExperienceTimeline() {
         <div className="space-y-12">
           {experiences.map((exp) => (
             <div key={exp.id} className="relative">
-              <span className="absolute -left-2.25 top-1 h-3 w-3 rounded-full bg-sage" />
-
               <div className="mb-2 flex items-center justify-between">
                 <div>
                   <h4 className="font-semibold text-ink">{exp.role}</h4>

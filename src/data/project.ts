@@ -14,28 +14,32 @@ export type Project = {
 export const projects: Project[] = [
   {
     id: 1,
-    title: "Portfolio Website",
-    description: "Personal portfolio with modern UI.",
+    title: "User Management",
+    description:
+      "A web-based user management system that allows administrators to manage user data, roles, and access permissions efficiently.",
     category: ["next", "typescript", "react"],
     featured: true,
-    demoUrl: "#",
-    codeUrl: "#",
+    image: "/images/project-1.png",
+    demoUrl: "https://mini-project-react-beta.vercel.app/",
+    codeUrl: "https://github.com/FakhriRa-Dot/MiniProject-React.git",
   },
   {
     id: 2,
-    title: "Admin Dashboard",
-    description: "Dashboard with Next.js App Router.",
+    title: "Recipe App",
+    description:
+      "A responsive recipe application designed to help users discover, save, and manage cooking recipes in one place.",
     featured: true,
-    category: ["react", "typescript", "tailwind"],
-    demoUrl: "#",
-    codeUrl: "#",
+    category: ["next", "typescript", "tailwind"],
+    image: "/images/project-2.png",
+    codeUrl: "https://github.com/FakhriRa-Dot/AssignmentDayEC.git",
   },
   {
     id: 3,
-    title: "Landing Page",
-    description: "Marketing landing page.",
-    category: ["javascript"],
-    demoUrl: "#",
-    codeUrl: "#",
+    title: "Coffe Shop",
+    description:
+      "A modern coffee shop website built to showcase products, menus, and brand identity.",
+    category: ["next", "css", "tailwind"],
+    image: "/images/project-3.png",
+    codeUrl: "https://github.com/FakhriRa-Dot/Mini-Project-AdvanceReact.git",
   },
 ];

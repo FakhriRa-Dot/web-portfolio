@@ -6,7 +6,7 @@ import TechSection from "./section/techsection";
 export default function HomePage() {
   return (
     <div>
-      <HeroSection />;
+      <HeroSection />
       <ProjectsSection />
       <TechSection />
       <ContactSection />

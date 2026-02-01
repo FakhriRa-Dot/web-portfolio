@@ -26,7 +26,6 @@ export default function ProjectPage() {
 
       <ProjectFilter active={activeFilter} onChange={setActiveFilter} />
 
-      {/* Grid */}
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         {filteredProjects.map((project) => (
           <ProjectCard key={project.id} project={project} />
