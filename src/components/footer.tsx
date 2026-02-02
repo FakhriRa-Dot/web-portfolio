@@ -5,13 +5,28 @@ export default function Footer() {
         <p className="font-semibold text-gray-700">rhess.dev</p>
 
         <div className="flex gap-8 text-sm text-gray-600">
-          <a href="#" className="hover:text-gray-900 transition">
+          <a
+            href="https://github.com/FakhriRa-Dot"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 transition"
+          >
             GitHub
           </a>
-          <a href="#" className="hover:text-gray-900 transition">
+          <a
+            href="www.linkedin.com/in/zahrahhafizahfakhri"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 transition"
+          >
             Linkedin
           </a>
-          <a href="#" className="hover:text-gray-900 transition">
+          <a
+            href="https://x.com/rhessistance"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-gray-900 transition"
+          >
             Twitter
           </a>
         </div>

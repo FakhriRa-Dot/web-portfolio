@@ -13,9 +13,13 @@ export default function Navbar() {
         <Link to="/project">PROJECTS</Link>
       </ul>
 
-      <button className="rounded-md bg-sage px-4 py-2 text-sm text-white font-inconsolata font-bold">
+      <a
+        href="/CV/CV.pdf"
+        download
+        className="rounded-md bg-sage px-4 py-2 text-sm text-white font-inconsolata font-bold hover:opacity-90 transition"
+      >
         Download CV
-      </button>
+      </a>
     </nav>
   );
 }
