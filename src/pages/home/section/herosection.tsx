@@ -4,9 +4,9 @@ export default function HeroSection() {
       <div>
         <div className="mb-4 inline-flex items-center gap-2 rounded-full px-4 py-1">
           <span className="h-3 w-3 rounded-full bg-cream" />
-          <h3 className="text-md text-cream font-inconsolata">
+          <p className="text-md text-cream font-inconsolata">
             Available for New Project
-          </h3>
+          </p>
         </div>
 
         <h1 className="mt-4 text-4xl font-bold text-sage font-alfa">

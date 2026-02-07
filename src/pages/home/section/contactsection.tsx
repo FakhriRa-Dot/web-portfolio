@@ -5,16 +5,19 @@ export default function ContactSection() {
     <section className="px-10 py-20">
       <div className="grid grid-cols-2 overflow-hidden rounded-2xl">
         <div className="bg-sage p-10 text-cream">
-          <h3 className="text-3xl font-bold tracking-widest">
+          <h2 className="text-3xl font-bold tracking-widest">
             Let’s Work Together
-          </h3>
+          </h2>
           <p className="mt-2 text-sm text-white font-crimson">
             Ready to bring your next big idea to life
           </p>
 
           <div className="mt-8 space-y-6 text-sm">
             <div className="flex items-start gap-3">
-              <FiMail className="mt-1 text-lg text-sageSoft" />
+              <FiMail
+                className="mt-1 text-lg text-sageSoft"
+                aria-hidden="true"
+              />
 
               <div className="flex flex-col">
                 <span className="text-sageSoft">Email</span>
@@ -28,7 +31,10 @@ export default function ContactSection() {
             </div>
 
             <div className="flex items-start gap-3">
-              <FiLinkedin className="mt-1 text-lg text-sageSoft" />
+              <FiLinkedin
+                className="mt-1 text-lg text-sageSoft"
+                aria-hidden="true"
+              />
 
               <div className="flex flex-col">
                 <span className="text-sageSoft">LinkedIn</span>
@@ -50,25 +56,37 @@ export default function ContactSection() {
           method="POST"
           className="bg-white p-10"
         >
+          <label htmlFor="name" className="sr-only">
+            Full Name
+          </label>
           <input
             type="text"
             name="name"
+            id="name"
             placeholder="Full Name"
             required
             className="mb-4 w-full rounded border p-2"
           />
 
+          <label htmlFor="email" className="sr-only">
+            Full Name
+          </label>
           <input
             type="email"
             name="email"
+            id="email"
             placeholder="Email Address"
             required
             className="mb-4 w-full rounded border p-2"
           />
 
+          <label htmlFor="message" className="sr-only">
+            Full Name
+          </label>
           <textarea
             name="message"
             placeholder="Message"
+            id="message"
             required
             className="mb-6 w-full rounded border p-2"
             rows={4}
