@@ -14,7 +14,7 @@ export default function ExperienceTimeline() {
             <div key={exp.id} className="relative">
               <div className="mb-2 flex items-center justify-between">
                 <div>
-                  <h4 className="font-semibold text-ink">{exp.role}</h4>
+                  <h2 className="font-semibold text-ink">{exp.role}</h2>
                   <p className="text-xs text-gray-500">{exp.company}</p>
                 </div>
 

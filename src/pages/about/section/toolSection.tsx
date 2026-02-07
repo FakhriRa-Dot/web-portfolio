@@ -9,9 +9,9 @@ export default function TechnicalToolkit() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
         {techStacks.map((stack) => (
           <div key={stack.title}>
-            <h4 className="mb-3 text-sm font-semibold text-ink">
+            <h2 className="mb-3 text-sm font-semibold text-ink">
               {stack.title}
-            </h4>
+            </h2>
 
             <div className="flex flex-wrap gap-2">
               {stack.items.map((tech) => (
