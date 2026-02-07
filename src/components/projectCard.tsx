@@ -11,11 +11,20 @@ export default function ProjectCard({ project }: Props) {
     <div className="overflow-hidden rounded-xl bg-white shadow-sm">
       <div className="h-40 overflow-hidden bg-gray-300">
         {project.image && (
-          <img
-            src={project.image}
-            alt={project.title}
-            className="h-full w-full object-cover"
-          />
+          <picture>
+            <source
+              srcSet={project.image.replace(/\.(png|jpg|jpeg)$/i, ".webp")}
+              type="image/webp"
+            />
+            <img
+              src={project.image}
+              alt={project.title}
+              loading="lazy"
+              width={400}
+              height={160}
+              className="h-full w-full object-cover"
+            />
+          </picture>
         )}
       </div>
 
