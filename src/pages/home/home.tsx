@@ -1,15 +1,24 @@
-import ContactSection from "./section/contactsection";
+import { lazy, Suspense } from "react";
 import HeroSection from "./section/herosection";
-import ProjectsSection from "./section/projectsection";
-import TechSection from "./section/techsection";
+
+const ProjectsSection = lazy(() => import("./section/projectsection"));
+const TechSection = lazy(() => import("./section/techsection"));
+const ContactSection = lazy(() => import("./section/contactsection"));
 
 export default function HomePage() {
   return (
     <div>
       <HeroSection />
-      <ProjectsSection />
-      <TechSection />
-      <ContactSection />
+
+      <Suspense fallback={<div>Loading...</div>}>
+        <ProjectsSection />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <TechSection />
+      </Suspense>
+      <Suspense fallback={<div>Loading...</div>}>
+        <ContactSection />
+      </Suspense>
     </div>
   );
 }
