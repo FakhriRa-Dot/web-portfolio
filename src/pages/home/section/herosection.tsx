@@ -45,8 +45,6 @@ export default function HeroSection() {
             src="/images/Foto.png"
             alt="Profile"
             fetchPriority="high"
-            width={260}
-            height={320}
             className="h-80 w-65 rounded-xl object-cover shadow-md"
           />
         </picture>

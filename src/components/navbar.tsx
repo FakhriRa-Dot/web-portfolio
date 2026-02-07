@@ -8,9 +8,16 @@ export default function Navbar() {
       </span>
 
       <ul className="flex gap-8 text-md text-ink font-inconsolata">
-        <Link to="/">HOME</Link>
-        <Link to="/about">ABOUT</Link>
-        <Link to="/project">PROJECTS</Link>
+        <li>
+          <Link to="/">HOME</Link>
+        </li>
+        <li>
+          <Link to="/about">ABOUT</Link>
+        </li>
+        <li>
+          {" "}
+          <Link to="/project">PROJECTS</Link>
+        </li>
       </ul>
 
       <a
