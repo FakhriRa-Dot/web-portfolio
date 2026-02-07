@@ -30,12 +30,26 @@ export default function HeroSection() {
       </div>
 
       <div className="flex justify-center">
-        <img
-          src="/Foto.png"
-          alt="Profile"
-          fetchPriority="high"
-          className="h-80 w-65 rounded-xl object-cover shadow-md"
-        />
+        <picture>
+          <source
+            type="image/webp"
+            srcSet={`
+        /images/Foto-480.webp 480w,
+        /images/Foto-768.webp 768w,
+        /images/Foto-1024.webp 1024w,
+        /images/Foto.webp 1600w
+      `}
+            sizes="(max-width: 640px) 65vw, 260px"
+          />
+          <img
+            src="/images/Foto.png"
+            alt="Profile"
+            fetchPriority="high"
+            width={260}
+            height={320}
+            className="h-80 w-65 rounded-xl object-cover shadow-md"
+          />
+        </picture>
       </div>
     </section>
   );

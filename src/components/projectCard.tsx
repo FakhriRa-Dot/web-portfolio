@@ -13,15 +13,13 @@ export default function ProjectCard({ project }: Props) {
         {project.image && (
           <picture>
             <source
-              srcSet={project.image.replace(/\.(png|jpg|jpeg)$/i, ".webp")}
+              srcSet={project.image.replace(".png", ".webp")}
               type="image/webp"
             />
             <img
               src={project.image}
               alt={project.title}
               loading="lazy"
-              width={400}
-              height={160}
               className="h-full w-full object-cover"
             />
           </picture>
