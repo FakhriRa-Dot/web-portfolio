@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1770544605442" clover="3.2.0">
+  <project timestamp="1770544605442" name="All files">
+    <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7" elements="30" coveredelements="30" complexity="0" loc="15" ncloc="15" packages="1" files="4" classes="4"/>
+    <file name="Footer.tsx" path="D:\Front-End\portfolio\src\components\Footer.tsx">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="4" type="stmt"/>
+    </file>
+    <file name="Navbar.tsx" path="D:\Front-End\portfolio\src\components\Navbar.tsx">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="4" type="stmt"/>
+    </file>
+    <file name="ProjectCard.tsx" path="D:\Front-End\portfolio\src\components\ProjectCard.tsx">
+      <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="6" type="stmt"/>
+      <line num="10" count="6" type="stmt"/>
+      <line num="36" count="18" type="stmt"/>
+    </file>
+    <file name="ProjectFilter.tsx" path="D:\Front-End\portfolio\src\components\ProjectFilter.tsx">
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="19" count="3" type="stmt"/>
+      <line num="22" count="15" type="stmt"/>
+      <line num="24" count="15" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
