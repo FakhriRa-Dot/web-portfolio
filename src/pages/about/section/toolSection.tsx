@@ -1,5 +1,5 @@
-import SectionHeader from "../../../components/sectionHeader";
-import { techStacks } from "../../../data/techStack";
+import SectionHeader from "../../../components/SectionHeader";
+import { techStacks } from "../../../data/TechStack";
 
 export default function TechnicalToolkit() {
   return (

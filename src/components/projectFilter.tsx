@@ -1,4 +1,4 @@
-import type { TechId } from "../data/techStack";
+import type { TechId } from "../data/TechStack";
 
 type FilterId = TechId | "all";
 

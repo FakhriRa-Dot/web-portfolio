@@ -1,4 +1,4 @@
-import SectionHeader from "../../../components/sectionHeader";
+import SectionHeader from "../../../components/SectionHeader";
 
 export default function AboutBio() {
   return (

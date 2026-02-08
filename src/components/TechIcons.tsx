@@ -11,7 +11,7 @@ import {
   SiTypescript,
   SiVite,
 } from "react-icons/si";
-import type { TechId } from "../data/techStack";
+import type { TechId } from "../data/TechStack";
 import type { ReactNode } from "react";
 
 export const techIconMap: Record<TechId, ReactNode> = {
