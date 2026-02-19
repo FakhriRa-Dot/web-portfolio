@@ -33,12 +33,7 @@ export default function HeroSection() {
         <picture>
           <source
             type="image/webp"
-            srcSet={`
-        /images/Foto-480.webp 480w,
-        /images/Foto-768.webp 768w,
-        /images/Foto-1024.webp 1024w,
-        /images/Foto.webp 1600w
-      `}
+            srcSet="/images/Foto.webp"
             sizes="(max-width: 640px) 65vw, 260px"
           />
           <img
