@@ -1,4 +1,5 @@
-import type { Project } from "../data/Project";
+import { Project } from "../data/Project";
+import { TechId } from "../data/TechStack";
 
 type Props = {
   project: Project;
@@ -32,7 +33,7 @@ export default function ProjectCard({ project }: Props) {
         <p className="mb-4 text-sm text-ink">{project.description}</p>
 
         <div className="mb-5 flex flex-wrap gap-2">
-          {project.category.map((cat, idx) => (
+          {project.category.map((cat: TechId, idx: number) => (
             <span
               key={`${project.id}-${cat}-${idx}`}
               className="rounded-full bg-sageSoft px-3 py-1 text-xs capitalize"

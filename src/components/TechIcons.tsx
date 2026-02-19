@@ -11,8 +11,8 @@ import {
   SiTypescript,
   SiVite,
 } from "react-icons/si";
-import type { TechId } from "../data/TechStack";
 import type { ReactNode } from "react";
+import { TechId } from "../data/TechStack";
 
 export const techIconMap: Record<TechId, ReactNode> = {
   html: <SiHtml5 />,
