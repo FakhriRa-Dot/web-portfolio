@@ -8,11 +8,9 @@
     "types": ["vite/client", "jest", "@testing-library/jest-dom", "node"],
     "skipLibCheck": true,
     "moduleResolution": "bundler",
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "ignoreDeprecations": "6.0",
 
     /* Bundler mode */
     "allowImportingTsExtensions": true,
