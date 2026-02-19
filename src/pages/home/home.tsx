@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import HeroSection from "./section/herosection";
+import HeroSection from "@/pages/home/section/herosection";
 
 const ProjectsSection = lazy(() => import("./section/projectsection"));
 const TechSection = lazy(() => import("./section/techsection"));

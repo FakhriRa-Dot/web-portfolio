@@ -7,9 +7,12 @@
     "module": "ESNext",
     "types": ["vite/client", "jest", "@testing-library/jest-dom", "node"],
     "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": false,
     "esModuleInterop": true,

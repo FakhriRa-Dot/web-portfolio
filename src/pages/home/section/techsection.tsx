@@ -1,5 +1,5 @@
-import { techIconMap } from "../../../components/TechIcons";
-import { techStacks } from "../../../data/TechStack";
+import { techIconMap } from "@/components/TechIcons";
+import { techStacks } from "@/data/TechStack";
 
 export default function TechSection() {
   return (

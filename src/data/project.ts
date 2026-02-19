@@ -1,4 +1,4 @@
-import { TechId } from "./TechStack";
+import { TechId } from "@/data/TechStack";
 
 export type Project = {
   id: number;

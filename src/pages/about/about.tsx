@@ -1,6 +1,6 @@
-import AboutBio from "./section/bioSection";
-import ExperienceTimeline from "./section/expSection";
-import TechnicalToolkit from "./section/toolSection";
+import AboutBio from "@/pages/about/section/bioSection";
+import ExperienceTimeline from "@/pages/about/section/expSection";
+import TechnicalToolkit from "@/pages/about/section/toolSection";
 
 export default function AboutPage() {
   return (

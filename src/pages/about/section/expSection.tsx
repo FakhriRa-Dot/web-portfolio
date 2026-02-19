@@ -1,5 +1,5 @@
-import SectionHeader from "../../../components/SectionHeader";
-import { experiences } from "../../../data/Experience";
+import SectionHeader from "@/components/SectionHeader";
+import { experiences } from "@/data/Experience";
 
 export default function ExperienceTimeline() {
   return (

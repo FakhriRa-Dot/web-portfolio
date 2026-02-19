@@ -1,8 +1,8 @@
 import { useState } from "react";
-import { projects } from "../../data/Project";
-import type { TechId } from "../../data/TechStack";
-import ProjectFilter from "../../components/ProjectFilter";
-import ProjectCard from "../../components/ProjectCard";
+import { projects } from "@/data/Project";
+import type { TechId } from "@/data/TechStack";
+import ProjectFilter from "@/components/ProjectFilter";
+import ProjectCard from "@/components/ProjectCard";
 
 type FilterId = TechId | "all";
 

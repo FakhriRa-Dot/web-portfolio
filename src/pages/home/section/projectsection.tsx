@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import ProjectCard from "../../../components/ProjectCard";
-import { projects } from "../../../data/Project";
+import ProjectCard from "@/components/ProjectCard";
+import { projects } from "@/data/Project";
 
 export default function ProjectsSection() {
   const featuredProjects = projects.filter((p) => p.featured).slice(0, 2);
