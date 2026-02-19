@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import ProjectFilter from "../components/ProjectFilter";
+import ProjectFilter from "../components/projectFilter";
 
 describe("ProjectFilter", () => {
   const onChange = jest.fn();

@@ -1,5 +1,5 @@
-import { Project } from "@/data/Project";
-import { TechId } from "@/data/TechStack";
+import { Project } from "@/data/project";
+import { TechId } from "@/data/techStack";
 
 type Props = {
   project: Project;
